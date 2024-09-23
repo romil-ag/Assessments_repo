@@ -1,0 +1,27 @@
+Project Overview
+
+- This project processes sales data from two different regions, applying specified business rules to clean, transform, and load the data into an SQLite database. It also includes SQL queries to validate the results.
+
+## Overview
+
+The project consists of a Python script that:
+1. Extracts data from two CSV files containing sales information.
+2. Transforms the data according to specified business rules.
+3. Loads the transformed data into an SQLite database.
+4. Validates the data using SQL queries.
+
+## Files Included
+
+- `sales_order.py`: The main script that performs data extraction, transformation, loading, and validation.
+- `README.md`: This README file.
+
+## Prerequisites
+
+- Python 3.x
+- PySpark
+- SQLite
+- Required Python packages:
+  -> `pyspark`
+  -> `sqlite3`
+
+
